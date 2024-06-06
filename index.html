@@ -3,5 +3,14 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+procedure CheckForFile(FileName:string);
+ begin
+  if FileExists(FileName) then
+     begin
+      FileExistsOnDrive:=True;
+      end
+  else
+      FileExistsOnDrive:=False;
+end; 
 </body>
 </html>
